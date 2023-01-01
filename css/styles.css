@@ -1,0 +1,178 @@
+body {
+  font-family: 'Montserrat';
+}
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+h1:hover {
+  color: cyan;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  color: black;
+}
+
+i:hover {
+  color: cyan;
+}
+
+p {
+  color: black;
+  font-size: 1rem;
+}
+
+/* Navbar Items */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+  font-weight: lighter;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+  border-radius: 0.4rem;
+}
+
+/* Title image */
+.Title-image {
+  transform: rotate(15deg);
+  position: relative;
+  /* top:30%; */
+  z-index: 0;
+}
+
+/* Feature Section */
+#features {
+  text-align: center;
+  padding: 5%;
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-doggy {
+  text-align: center;
+  padding: 4%;
+}
+
+.doggy {
+  color: red;
+  font-size: 60px;
+}
+
+.feature-h3 {
+  font-weight: bold;
+  font-size: 1.75rem;
+  padding: 1rem;
+  color: black;
+}
+.doggy_p{
+  color: #8f8f8f;
+}
+
+/* Testimonials section */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  padding-bottom: 75px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.Pebbles {
+  color: #fff;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 3rem;
+}
+
+.Pebbles:hover {
+  color: cyan;
+}
+
+.Max {
+  width: 150px;
+  border-radius: 100%;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+  padding-top: 9%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 10px 10px;
+}
+/* Pricing section */
+
+#pricing {
+  text-align: center;
+  padding: 90px;
+}
+
+.card{
+  height: 100%;
+  width: 100%;
+}
+
+.pricing-card {
+  padding: 3% 3%;
+}
+.btn-sign{
+  border-radius: 0.25rem;
+}
+
+/* Footer section */
+
+#cta{
+  background-color:#ff4c68;
+  color: white;
+  text-align: center;
+  padding: 7% 4%;
+}
+#footer{
+  background-color: #ff4c68;
+  text-align: center;
+}
+.footer{
+  padding: 1% 2%;
+}
+.f-icon{
+  font-size: 25px;
+}
